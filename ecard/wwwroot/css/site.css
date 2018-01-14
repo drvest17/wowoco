@@ -1,35 +1,23 @@
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+body{
+    background:#7861b4;
+    color:#26216a;
+    font-family:Ariel;
+    font-size:14px;
+    background-image:url('..images/tile.jpg');
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:contain;
 }
+a{
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
 }
-
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
+a:hover{
+    color:#ffffff;
+    font-size:1.2em;
 }
-
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+a:focus{
+    color:#14669d;
 }
-
-/* QR code generator */
-#qrCode {
-    margin: 15px;
-}
-
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
+a:visited{
+    color:#2d0a6b;
 }
