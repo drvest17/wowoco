@@ -2,7 +2,7 @@ body{
     background:#7861b4;
     color:#26216a;
     font-family:Ariel;
-    font-size:14px;
+    font-size:18px;
     background-image:url('..images/tile.jpg');
     background-repeat:no-repeat;
     background-position:top center;
@@ -20,4 +20,13 @@ a:focus{
 }
 a:visited{
     color:#2d0a6b;
+
+
+}
+
+h3{
+    Font-size:4.5em;
+    color:#320c94;
+    
+
 }
