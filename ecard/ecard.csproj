@@ -9,6 +9,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="wwwroot\images\card_anniversary.png.html" />
+    <None Remove="wwwroot\images\card_babyshower.png.html" />
+    <None Remove="wwwroot\images\card_birthday.png.html" />
+    <None Remove="wwwroot\images\card_valentines.png.html" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="wwwroot\images\banner1.svg" />
     <None Include="wwwroot\images\banner2.svg" />
     <None Include="wwwroot\images\banner3.svg" />
